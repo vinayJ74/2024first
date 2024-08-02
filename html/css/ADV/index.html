@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced CSS Example</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: 
+      'header header'
+      'sidebar main'
+      'footer footer';
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 200px 1fr;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+  }
+
+  .header { grid-area: header; background: #25e118; color: rgb(88, 10, 222); padding: 20px; }
+  .sidebar { grid-area: sidebar; background: #e21515; padding: 20px; }
+  .main { grid-area: main; padding: 20px; }
+  .footer { grid-area: footer; background: #1a1111; color: rgb(230, 34, 34); padding: 20px; }
+
+  .image {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .overlay {
+    backdrop-filter: blur(10px);
+    mix-blend-mode: multiply;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    /* z-index: 2; */
+  }
+
+  .content {
+    aspect-ratio: 16 / 9;
+    background: rgb(8, 174, 230);
+    margin: 20px 0;
+    z-index: 1;
+  }
+  .sidebar{
+    grid:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-left:10px;
+
+
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar<div class="jh"><a href="box">box</a></div></div>
+    <div class="main">
+      <img src="https://th-i.thgim.com/public/incoming/90m4jh/article68100867.ece/alternates/FREE_1200/seedhe%20maut%20-%20photoshoot%202023%20-%20shot%20by%20kyabc-20%201.jpg" alt="Example" class="image">
+      <div class="content">
+        
+        <div class="overlay">jlkikhkjj</div>
+        
+
+        
+      </div>
+    </div>
+    <div class="footer">Footer</div>
+  </div>
+</body> 
+</html>

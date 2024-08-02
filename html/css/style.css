@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+   
+    
+}
+/* #box{
+   
+    width:300px;
+    height:300px;
+    /* background:url("https://i.scdn.co/image/ab6761610000e5eb2ff3b81c16a59f19b0f6e2d2"); */
+    /* background-size:contain; */
+    /* background-position: center; */
+    /* background-size:cover;
+    background-repeat:no-repeat;
+   background-position:center; */
+   /* background:linear-gradient(red,green)
+} */
+ /* #box{
+    background-color:red;
+    width:300px;
+    height:300px;
+    display:flex;
+    align-items:center;
+  
+    justify-content:end;
+    /*  ek hota hai space-around */
+ /* } */
+ /* #one {
+    background-color:rgb(227, 26, 167);
+    width:70px;
+    height:100px;
+    padding:20px 30px;
+
+ } */
+ /* #two {
+    background-color:rgb(17, 0, 255);
+    width:80px;
+    height:100px;
+
+ } #three {
+    background-color:rgb(9, 255, 0);
+    width:95px;
+    height:100px;
+
+ /* } p{*/  
+    /* position:relative; */
+    /* width:fit-content;  */
+    /* paragraph kitni width rakhega wo width jitna content hai */
+    /* display:inline; */
+ /* } */
+ /* p::before{
+    position:absolute;
+    content:" ";
+  background-color:blue;
+  width:100%;
+  height:3px;
+  top:30%;
+  
+
+ }
+ h1::first-letter{
+    font-size:120px;
+    /* magazines mein hota hai  */
+ /* } */
+ /* h1::selection{
+    color:green;
+ } */
+ /* h 
+ 
+ /*  */
+
+#main{
+    background-color:rgb(129, 227, 233);
+    width:100%;
+    height:100%;
+    display:flex;
+    /* flex-direction:column; */
+    justify-content:space-evenly;
+    align-items:center;
+    padding:0 20px;
+  
+ }
+
+ .elem{
+    width:100px;
+    height:100px;
+    background-color:rgb(218, 4, 40);
+    border:2px solid rgb(0, 0, 0);
+    /* padding:20px 20px; */
+    
+ }
+
+
+
+  

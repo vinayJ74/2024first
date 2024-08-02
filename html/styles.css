@@ -1,0 +1,37 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color:black;
+ }
+ 
+ html, body {
+     height: 100%;
+     width: 100%;
+     /* background-color:white */
+ }
+ #text1{
+    width:60vw;
+    height:60vh;
+    background-color:red;
+    overflow:hidden;
+ }
+ #text2{
+    width:889px;
+    height:882px;
+    background-color:rgb(19, 222, 53);
+ }
+ #test{
+    font-size:12px;
+    width:1em; 
+    height:1em;
+    background-color:blue
+ }
+ #tex{
+    width:3000px;
+    max-width:500px;
+    height:200px;
+    background-color:blueviolet;
+ }
+
+

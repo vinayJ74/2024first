@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:royalblue; */
+    /* background-color:rgb(234, 222, 49); */
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+ /* background-color:rgb(176, 251, 191); */
+ padding:40px 50px;
+
+   
+  
+}
+
+#div{
+    background-color:rgb(176, 195, 251);
+
+height:300px;
+width:100% ;
+
+  
+}
